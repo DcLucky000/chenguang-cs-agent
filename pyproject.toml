@@ -1,0 +1,13 @@
+[project]
+name = "chenguang-agent"
+version = "0.3.0"
+description = "澄光肌研客服 Agent：DeepSeek-V4.1-Flash-1017 决定下一步、调用工具并受护栏约束"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+chenguang-agent = "chenguang_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["chenguang_agent*"]
